@@ -30,8 +30,10 @@ NO_HOME = 1
 .define DS  .res
 .define ASC .byte
 .define ASCH scrcode
-.feature labels_without_colons +
-.feature loose_string_term +
+;;; .feature labels_without_colons +
+;;; .feature loose_string_term +
+.feature labels_without_colons
+.feature loose_string_term
 .include "apple2.mac"
 
 .if 0

@@ -22,7 +22,7 @@ add_file () {
 
 for file in \
   "bbb" "buhbye" "bye" "selector" \
-        "clock" "cricket" "dclock" "fn.clock" "ns.clock" "romxrtc" \
+        "clock" "cricket" "dclock" "fn.clock" "ns.clock" "romxrtc" "timeii"\
         "ram.drv" \
         "zipchip" \
         "me.first" "pause" "home" "noclock"; do
